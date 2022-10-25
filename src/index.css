@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Tangerine);
+
+
+body{
+  font-family: "Tangerine";
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,229,1) 73%);  
+}
+
+#walletAddress{
+  font-size: 10px;
+  color:gray;
+}
+
+.Container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Card-main{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+
+.hero{
+  width:70%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-color: gray;
+}
+
+.logo{
+  width:80%;
+  margin-top: 30px;
+  margin-bottom: 20px;;
+}
+
+.text-box{
+  font-family: "Lora", serif;
+  background:white;
+  height:200px;
+  width:100%;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: gray;
+  color:#EA4C89;
+}
+
+.cost{
+  margin-top: 20px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.minting{
+  margin-top:20px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+}
+
+#mint-btn{
+background-color: #EA4C89;
+width:120px;
+border-radius: 8px;
+border-style: none;
+box-sizing: border-box;
+color: #FFFFFF;
+cursor: pointer;
+display: inline-block;
+font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 24px;
+font-weight: 500;
+height: 40px;
+line-height: 20px;
+list-style: none;
+margin: 0;
+outline: none;
+padding: 10px 16px;
+position: relative;
+text-align: center;
+text-decoration: none;
+transition: color 100ms;
+vertical-align: baseline;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+background-color: #F082AC;
+}
+
+.increment{
+  width:30px;
+  background-color: beige;
+}
+
+.mint-text{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  margin-top:-10px;
+}
+
+#contract{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color:gray;
+}
