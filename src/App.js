@@ -1,6 +1,7 @@
 import gif from "./images/SAS_gif.gif";
 import { ethers } from "ethers";
 import { ABI } from "./Abi";
+import logo from './images/logon.png';
 
 async function connect() {
   try {
@@ -63,7 +64,7 @@ function App() {
         <div className="Card-main">
           <img
             className="logo"
-            src="https://images.cooltext.com/5625306.png"
+            src={logo}
           ></img>
           <img className="hero" src={gif}></img>
           <div className="text-box">
